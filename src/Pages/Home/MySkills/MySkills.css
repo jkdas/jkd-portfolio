@@ -1,0 +1,32 @@
+.skill-background{
+    /* background-image: linear-gradient(
+54deg,rgba(91, 91, 97, 0.95) 34%,rgba(230, 205, 205, 0.95)),url(/src/images/skill.jpg); */
+}
+
+.skill-card-expert{
+    background-image: linear-gradient(
+        54deg,rgba(106, 106, 110, 0.95) 34%,rgba(80, 69, 224, 0.95)),url(/src/images/skill.jpg);
+    border: 1px solid rgb(36, 33, 33);
+    border-radius: 30%;
+    height:250px;
+   color: lemonchiffon;
+   box-shadow: 12px 12px 10px 1px rgba(85, 51, 207, 0.979);
+}
+.skill-card-comfort{
+    background-image: linear-gradient(
+        54deg,rgba(74, 74, 78, 0.95) 34%,rgba(235, 129, 129, 0.95)),url(/src/images/skill.jpg);
+    border: 1px solid rgb(107, 84, 84);
+    border-radius: 30%;
+    height:250px;
+   color: lemonchiffon;
+   box-shadow: 12px 12px 10px 1px rgba(194, 103, 103, 0.95);
+}
+.skill-card-tools{
+    background-image: linear-gradient(
+        54deg,rgba(94, 126, 124, 0.95) 34%,rgba(232, 241, 110, 0.95)),url(/src/images/skill.jpg);
+    border: 1px solid rgb(70, 87, 62);
+    border-radius: 30%;
+    height:250px;
+   color: lemonchiffon;
+   box-shadow: 12px 12px 10px 1px rgba(176, 184, 77, 0.979);
+}

@@ -1,0 +1,109 @@
+.main-swiper {
+    margin: 0px 0 30px 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(
+        54deg,rgba(94, 126, 124, 0.95) 34%,rgba(232, 241, 110, 0.95)),url(/src/images/skill.jpg);
+}
+  
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+}
+  
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.project-name{
+    /* font-size: 50px; */
+    text-align: center;
+    color: #142b6b; 
+    font-style: italic;
+    font-weight: 500;
+}
+.project-detail-info{
+    height:500px;
+    width:800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+  
+.project-detail-text li {
+    color: #fff;
+    font-size: 16px;
+    background-image: linear-gradient(
+        54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.project-link-btn {
+   margin-left: 15px;
+}
+.project-link-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.project-link-btn Button{
+    border: 1px solid #142b6b;
+    border-radius: 30px;
+    background-color: #142b6b;  
+    padding: 8px 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.project-link-btn Button:hover{
+    background-image: linear-gradient(
+        54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.tech-header{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.technology-tag{
+    text-align: left;
+    padding-left: 0px;
+}
+.technology-tag li{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: rgba(58, 12, 223, 0.071);
+    box-shadow: 0 1px 4px rgb(0 0 0 / 14%);
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+  
+@media only screen and (max-width: 600px){
+    .card-small-device{
+        width: 90%;
+    }
+    .project-detail-info{
+        height:700px;
+       
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+}
+@media only screen and (min-width: 601px) and (max-width:991px) {
+    
+   
+}

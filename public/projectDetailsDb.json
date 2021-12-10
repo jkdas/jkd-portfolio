@@ -1,0 +1,107 @@
+[
+    {
+        "pid": "1001",
+        "projectName": "Flying Mongoose",
+        "keyFeatures": {
+            "feature1": "Visitors can find any types of Drones and purchase desired Drone from this website",
+            "feature2": "Users can easily manage order, payment, review by using Dashboard option",
+            "feature3": "Admin user can manage all products, order, add new products and can make anyone Admin by using Dashboard Feature"
+        },
+        "images": {
+            "img1": "../images/flying-Mongoose3.png",
+            "img2": "../images/flying-Mongoose5.png",
+            "img3": "../images/flying-Mongoose6.png",
+            "img4": "../images/flying-Mongoose7.png",
+            "img5": "../images/flying-Mongoose8.png",
+            "img6": "../images/flying-Mongoose9.png",
+            "img7": "../images/flying-Mongoose10.png",
+            "img8": "../images/flying-Mongoose11.png"
+        },
+        "links": {
+            "siteLink": "https://flying-mongoos.web.app/",
+            "clientSide": "https://github.com/jkdas/flying-mongoose-client",
+            "serverSide": "https://github.com/jkdas/flying-mongoose-server"
+        },
+        "technology": {
+            "tech1": "React Js",
+            "tech2": "Node Js",
+            "tech3": "Express Js",
+            "tech4": "MongoDb",
+            "tech5": "Firebase",
+            "tech6": "Heroku",
+            "tech7": "HTML5",
+            "tech8": "CSS3",
+            "tech9": "BootStrap"
+        }
+    },
+    {
+        "pid": "1002",
+        "projectName": "Tour Mates",
+        "keyFeatures": {
+            "feature1": "Tourists can find details of any historical and attractive tour places inside Bangladesh and place booking order easily",
+            "feature2": "Visitors can see all reviews given by the tourist and can contact using contact form ",
+            "feature3": "Admin user can manage all tour packages, booking order, and add new tour packages by using this website"
+        },
+        "images": {
+            "img1": "../images/tourmates2.png",
+            "img2": "../images/tourmates3.png",
+            "img4": "../images/tourmates4.png",
+            "img3": "../images/tourmates5.png",
+            "img5": "../images/tourmates6.png",
+            "img6": "../images/tourmates7.png",
+            "img7": "../images/tourmates9.png",
+            "img8": "../images/tourmates11.png"
+        },
+        "links": {
+            "siteLink": "https://tour-mates-bd.web.app/",
+            "clientSide": "https://github.com/jkdas/tour-mates-bd-client",
+            "serverSide": "https://github.com/jkdas/tour-mates-bd-server"
+        },
+        "technology": {
+            "tech1": "React Js",
+            "tech2": "Node Js",
+            "tech3": "Express Js",
+            "tech4": "MongoDb",
+            "tech5": "Firebase",
+            "tech6": "Heroku",
+            "tech7": "HTML5",
+            "tech8": "CSS3",
+            "tech9": "BootStrap"
+        }
+    },
+    {
+        "pid": "1003",
+        "projectName": "Home Care BD",
+        "keyFeatures": {
+            "feature1": "Home nursing service in Bangladesh provides services to families to help clients remain in their home",
+            "feature2": "Visitors can find highly reliable and exceptional care from home",
+            "feature3": "Visitors can make an online appointment by using appointment features"
+        },
+        "images": {
+            "img1": "../images/homecare1.png",
+            "img2": "../images/homecare2.png",
+            "img3": "../images/homecare3.png",
+            "img4": "../images/homecare4.png",
+            "img5": "../images/homecare5.png",
+            "img6": "../images/homecare6.png",
+            "img7": "../images/homecare7.png",
+            "img8": "../images/homecare8.png"
+        },
+        "links": {
+            "siteLink": "https://home-care-bd-jkd.netlify.app/",
+            "clientSide": "https://github.com/jkdas/home-care-bd",
+            "serverSide": ""
+        },
+        "technology": {
+            "tech1": "React Js",
+            "tech2": "HTML5",
+            "tech3": "CSS3",
+            "tech4": "Bootstrap",
+            "tech5": "Firebase",
+            "tech6": "React Router",
+            "tech7": "JavaScript",
+            "tech8": "ES6",
+            "tech9": "AOS"
+        }
+    }
+]

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif:ital@1&display=swap');
+.about-header{
+    text-align: center;
+    font-style: italic;
+    background-image: linear-gradient(
+        54deg,rgba(50, 53, 228, 0.95) 34%,rgba(238, 113, 113, 0.95));
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Lobster', cursive !important;
+    
+}
+.about-section{
+    background-image: linear-gradient(
+        54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+    border-radius: 50px;
+}
+
+.about-section-info {
+    font-family: 'PT Serif', serif !important; 
+    color: lightgray;
+}
+.para-two{
+    font-family: 'PT Serif', serif !important; 
+    color: #fff;
+}
+.back-to-home{
+    text-decoration: none;
+}
+.back-to-home-btn{
+    text-decoration: none;
+    background-image: linear-gradient(
+        54deg,rgba(20, 23, 219, 0.95) 34%,rgba(200, 57, 57, 0.95));
+}
+@media only screen and (max-width:600px) {
+    .about-img img{
+        position: relative;
+        left: -100px;
+    }
+    
+    .back-to-home{
+        position: relative;
+        top: -17px;
+        left: 100px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width:991px) {
+    .about-img img{
+        position: relative;
+        left: -120px;
+    }
+    .back-to-home{
+        position: relative;
+        top: -30px;
+        left: -199px;
+    }
+    
+}

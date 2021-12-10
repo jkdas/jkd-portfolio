@@ -1,0 +1,24 @@
+.project-detail {
+    display: none;
+    position: absolute;
+    width: 400px;
+    top: 0;
+}
+.project-frame {
+    position: relative;
+    overflow: hidden;
+}
+.project-frame:hover .project-detail {
+    display: block;
+    background-color: rgba(84, 98, 63, 0.6);
+    color: white;
+}
+.project-frame:hover .photo {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
+
+/* .project-frame:hover .project-detail  {
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;
+} */

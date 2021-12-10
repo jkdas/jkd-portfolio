@@ -1,0 +1,103 @@
+.footer-background {
+    background-image: linear-gradient(
+54deg,rgba(52, 52, 63, 0.95) 34%,hsla(0,34%,71%,.95)),url(/src/images/bg.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 75%;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+   
+}
+.contact-form input{
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    background-color: rgba(199, 199, 207, 0.95);
+    color: rgb(14, 13, 13);
+    border-radius: 5px;
+}
+.send-btn{
+    background-image: linear-gradient(
+54deg,rgba(74,76,179,.95) 34%,hsla(0,34%,71%,.95));
+border: 1px solid rgba(74,76,179,.95);
+border-radius: 15px;
+}
+
+.send-btn:hover{
+    background-image: linear-gradient(
+54deg,rgba(36, 39, 238, 0.95) 34%,rgba(236, 128, 128, 0.95));
+    cursor: pointer;
+}
+.social-media-container a{
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+    margin-left: 40px;
+}
+.social-media-fb{
+    position: relative;
+    top: -50px;
+    font-size: 30px;
+    border: 1px solid #0058a0;
+    border-radius: 5px;
+    background-color: #0058a0;
+    padding: 2px;
+ }
+.social-media-linkeIn{
+    position: relative;
+    top: -30px;
+    font-size: 30px;
+    border: 1px solid #EB7665;
+    border-radius: 5px;
+    background-color: #EB7665;
+    padding: 2px;
+ }
+.social-media-git{
+    position: relative;
+    top: -15px;
+    font-size: 30px;
+    border: 1px solid #913399;
+    border-radius: 5px;
+    background-color: #913399;
+    padding: 2px;
+ }
+.social-media-stack{
+    position: relative;
+    top: -5px;
+    font-size: 30px;
+    border: 1px solid #EF8236;
+    border-radius: 5px;
+    background-color: #EF8236;
+    padding: 2px;
+ }
+ .copyright{
+    font-family: 'Lobster', cursive !important;
+    text-align: center;
+    font-size: 5px;
+    font-style: italic;
+    font-weight: 700;
+    color: lemonchiffon;
+    background-image: linear-gradient(
+        54deg,rgba(74,76,179,.95) 34%,rgba(241, 135, 135, 0.95));
+    margin-bottom: 5px;
+ }
+@media only screen and (max-width: 600px){
+    .social-media-order{
+        order: 2;
+    }
+    .contact-form-order{
+        order: 1;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width:991px) {
+    
+   
+}
