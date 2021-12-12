@@ -33,7 +33,7 @@ const Banner = () => {
                             <Button variant='contained' style={{ marginRight: 30, fontWeight: 700, backgroundColor: '#142b6b' }}>About Me</Button>
                         </Link>
 
-                        <a href="https://drive.google.com/file/d/1lLek1Mu-J9xlpdK2QRvt6o-PgsMtveZY/view?usp=sharing" target="_blank" rel="noreferrer" className="download-resume" data-aos="zoom-in"
+                        <a href="https://drive.google.com/file/d/1UpK4eDkIDmOhEP4Fr_v_9pvZjsK0weBJ/view?usp=sharing" target="_blank" rel="noreferrer" className="download-resume" data-aos="zoom-in"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="1000">Download Resume</a>
                     </Box>
